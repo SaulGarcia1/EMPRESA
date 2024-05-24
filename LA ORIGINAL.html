@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <style>
+       
+    </style>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="java Script/hola.js">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            background-color: rgb(120, 218, 243);
+            background-size: cover; /* Para cubrir todo el área */
+            background-repeat: no-repeat; /* Evitar que la imagen se repita */
+            background-attachment: fixed; /* Para mantener la imagen en su lugar mientras se desplaza */
+
+        }
+    </style>
+
+    <style>
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: rgb(231, 24, 24);
+        }
+        h2{
+            color: red;
+        }
+        h3{color: red;
+        }
+        
+        
+    </style>
+    <style>
+        #hi{
+            color: rgb(0, 0 0);
+
+        }
+
+        h1:hover{
+            color: rgb(46, 228, 56);
+        
+        }
+        h2:hover{
+            color: black;
+        }
+        h3:hover{
+            color: black;
+        }
+        input{
+            background: rgb(177, 141, 211);
+        }
+        textarea{
+            background: rgb(231, 96, 225);
+        }
+    </style>
+</head>
+<body>
+
+     <strong><h1> <b>MI EMPRESA DESARROLLADORA DE SOFTWARE</b></h1> <!-- Título de la página -->
+    <p id="hi">Esta pagina esta dedicada para nose la verdad para que jajaja Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi earum minima adipisci cum placeat, eius numquam ratione eveniet et, dolor nisi. Aliquid earum vero, repellendus harum eum pariatur ex repellat?</p>
+    
+    <h2>SERVICIOS QUE TE PUEDO OFRECER</h2> <!-- Encabezado para el listado -->
+    <ul>
+        <li>  Te apoyo a desarrollar aplicaciones móviles personalizadas</li> <!-- Primer elemento de la lista -->
+        <li>  Igualmente te ayudo a la traducción de contenido para usuarios que buscan expandirse a nuevos mercados.</li>    </li> <!-- Segundo elemento de la lista -->
+        <li> Te ofresco asesoramiento y consultorio a empresas sobre cómo aprovechar la tecnología para mejorar sus operaciones y alcanzar sus objetivos</li> <!-- Tercer elemento de la lista -->
+        
+    </ul>
+    <h3>VENTAJAS DE LA PAGINA WEB</h3>
+    <ul>
+        <li> Diseño personalizado: Ofresco un diseño web personalizado y único para cada cliente :l</li>
+        <li> Te aseguro que los sitios web que desarrollo estan completamente optimizados para dispositivos móviles </li>
+    </ul> </strong>
+    <!-- Campos de entrada -->
+    <div class="container">
+    <h1>Formulario de Contacto</h1>
+    <form id="contactForm" action="send_mail.php" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Teléfono:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <hr>
+        <br>
+
+        <label for="message">MENSAJE:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">ENVIAR</button>
+        <label for="">BORRAR FORMULARIO</label>
+   <input type="reset">
+    </form>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
